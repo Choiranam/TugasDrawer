@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
                     getSupportFragmentManager().beginTransaction()
                             .replace(R.id.content_frame, new MakananFavorit())
                             .commit();
-                    getSupportActionBar().setTitle("Makanan Minuman Favorit");
+                    getSupportActionBar().setTitle("Makanan dan Minuman Favorit");
                 }
 
                 drawerLayout.closeDrawers();
